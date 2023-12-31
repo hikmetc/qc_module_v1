@@ -47,9 +47,9 @@ tab1, tab2, tab3 = st.tabs(["📖 **Instructions**", "📉 **:green[Levey-Jennin
                                 ],)
 with tab1:
     instructions = """
-    ### :blue[Instructions for Use]
+    #### :blue[Instructions for Use]
 
-    #### :blue[Sidebar Features]
+    ##### :blue[Sidebar Features]
 
     **:blue[1. QC Module:]**
     - The sidebar contains a section titled "QC Module."
@@ -58,7 +58,7 @@ with tab1:
     - The application reads the uploaded file, processes both Excel and CSV formats, and prompts users to select a column representing IQC results.
     - The selected column is processed, removing missing values and resetting the index for further analysis.
 
-    #### :blue[Tabs]
+    ##### :blue[Tabs]
 
     **:blue[1. Instructions Tab:]**
     - The "Instructions" tab provides guidance on effectively using the application.
