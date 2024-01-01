@@ -38,6 +38,7 @@ with st.sidebar:
     if uploaded_file is not None:
         # data of analyte selection
         analyte_data, analyte_name_box = process_file(uploaded_file)
+    st.info('*Developed by Hikmet Can Çubukçu, MD, EuSpLM* <hikmetcancubukcu@gmail.com>')
         
 
 st.header("📉 Quality Control Module")
